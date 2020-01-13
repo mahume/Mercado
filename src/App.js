@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
+import StorePicker from './components/StorePicker/index';
 
-function App() {
-  return (
-    <h1>Hello World</h1>
-  );
+class App extends Component() {
+  render() {
+    return (
+      <StorePicker />
+    );
+  }
 }
 
 export default App;
